@@ -2,7 +2,7 @@
 
 echo "Running application test..."
 
-if grep -q "WRONG TEXT FOR CONTROLLED ERROR" app.txt; then
+if grep -q "Week 5 Jenkins Hands-on Activity" app.txt; then
     echo "Test passed!"
     exit 0
 else
